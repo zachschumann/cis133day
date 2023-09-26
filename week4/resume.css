@@ -1,0 +1,29 @@
+body{
+    font-family:sans-serif;
+    font-size: 16px;
+}
+h1{
+    background-color: #4B855E;
+    text-align: center;
+    color: #215733;
+    font-size: 36px;
+}
+h2{
+    color: #215733;
+    font-size: 24px;
+}
+h3{
+    color: #215733;
+    font-size: 20px;
+}
+hr{
+    height: 3px;
+    border-style: solid;
+    background-color:#215733;
+}
+.address{
+    text-align: center;
+}
+ul{
+    list-style: square;
+}
