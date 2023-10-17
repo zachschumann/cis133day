@@ -19,6 +19,7 @@ nav {
 	padding-right: .5em;
 	padding-bottom: .5em;
 	text-align: center;
+    
 }
 
 main { 
@@ -73,4 +74,19 @@ h3 {
     min-width: 960px;
     max-width: 2048px;
     box-shadow: 3px 3px 3px #777;
+}
+li{
+    list-style-type: none;
+    display: inline
+}
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: white;
+    background-color: red;
 }
