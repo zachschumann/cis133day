@@ -98,3 +98,42 @@ h3 {
 #wrapper { 
     background-color: #FFFFFF;
 }
+
+@media screen and (min-width: 600px){
+    nav ul{
+      display: inline;
+      display: flex;
+      flex-wrap: nowrap;
+      padding: 2rem;
+      flex-direction: row;
+    }
+    nav li{
+        border-style: none;
+        font-size: 2rem;
+    }
+
+    h1{
+        font-size: 2rem;
+        letter-spacing: .25rem;
+    }
+
+    #homehero { 
+        height: 300px;
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    body {
+        background: linear-gradient(to bottom, white 35%, lightblue 100%);
+    }
+    
+    #wrapper { 
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    nav ul{
+        padding: 10%;
+    }
+}
